@@ -1,6 +1,7 @@
+print("Vamos calcular o IMC")
 peso = float(input("Digite o seu peso:\n"))
 altura = float(input("Digite a sua altura:\n"))
-imc = (peso / (altura * altura))
+imc = peso / (altura * altura)
 
 print(round(imc, 2))
 
